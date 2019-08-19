@@ -9,15 +9,15 @@ def line(katz_deli)
   end  
 end
 
-def take_a_number(katz_deli, name)
-  katz_deli << name
+def take_a_number(katz_deli, customer)
+  katz_deli << customer
 end
 
 def now_serving
-  if katz_deli.empty? != true
+  if katz_deli.empty? == true
+    "There is nobody waiting to be served!"
+  else
     puts "Currently serving #{katz_deli[0]}"
     katz_deli.shift
-  else
-    "There is nobody waiting to be served!"
   end
 end
