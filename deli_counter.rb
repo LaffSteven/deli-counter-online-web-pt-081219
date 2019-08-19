@@ -3,7 +3,7 @@ katz_deli = []
 
 def line(katz_deli)
   if katz_deli.empty? == true
-    puts "There is nobody waiting to be served!"
+    puts "Theline is currently empty."
   else
     katz_deli
   end  
