@@ -2,10 +2,10 @@
 katz_deli = []
 
 def line(katz_deli)
-  if katz_deli.empty? != true
-    katz_deli
+  if katz_deli.empty? == true
+    puts "There is nobody waiting to be served!"
   else
-    "There is nobody waiting to be served!"
+    katz_deli
   end  
 end
 
