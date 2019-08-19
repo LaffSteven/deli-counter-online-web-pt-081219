@@ -10,7 +10,7 @@ def line(katz_deli)
       the_line << "#{katz_deli.index(waiting_customer) + 1}. #{waiting_customer} "
     end
   end
-  the_line
+  puts the_line
 end
 
 def take_a_number(katz_deli, new_customer)
