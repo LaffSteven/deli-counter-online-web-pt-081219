@@ -9,8 +9,8 @@ def line(katz_deli)
     katz_deli.each do |waiting_customer|
       the_line << "#{katz_deli.index(waiting_customer) + 1}. #{waiting_customer} "
     end
+    puts the_line
   end
-  puts the_line
 end
 
 def take_a_number(katz_deli, new_customer)
