@@ -6,6 +6,7 @@ def line(katz_deli)
     katz_deli
   else
     "There is nobody waiting to be served!"
+  end  
 end
 
 def take_a_number(katz_deli, name)
