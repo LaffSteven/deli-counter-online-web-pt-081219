@@ -2,12 +2,12 @@
 katz_deli = []
 
 def line(katz_deli)
-  the_line = "The line is currently: "
+  the_line = "The line is currently:"
   if katz_deli.empty? == true
     puts "The line is currently empty."
   else
     katz_deli.each do |waiting_customer|
-      the_line << "#{katz_deli.index(waiting_customer) + 1}. #{waiting_customer} "
+      the_line << " #{katz_deli.index(waiting_customer) + 1}. #{waiting_customer}"
     end
     puts the_line
   end
